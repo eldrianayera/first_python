@@ -34,3 +34,15 @@ def div(num1,num2) :
 
 print(div(100,43))
 
+
+
+def odd_even(num) :
+    if num % 2 == 0 :
+        return 'even'
+    else :
+        return 'odd'
+    
+print(odd_even(212))
+print(odd_even(92738))
+print(odd_even(433))
+print(odd_even(23735))
