@@ -11,5 +11,14 @@ def factorial_generator(num):
 print(factorial_generator(5))
 
 
+def add(num1,num2) :
+    return num1 + num2
 
+print(add(100,43))
+
+
+def subs(num1,num2) :
+    return num1 - num2
+
+print(subs(100,43))
 
