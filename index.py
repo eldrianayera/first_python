@@ -18,7 +18,19 @@ print(add(100,43))
 
 
 def subs(num1,num2) :
-    return num1 - num2
+    return abs(num1 - num2)
 
 print(subs(100,43))
+
+
+def mul(num1,num2) :
+    return num1 * num2
+
+print(mul(100,43))
+
+
+def div(num1,num2) :
+    return num1 / num2
+
+print(div(100,43))
 
